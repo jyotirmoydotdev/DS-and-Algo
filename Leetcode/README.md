@@ -1,6 +1,6 @@
 # Leetcode
 
-| Problem                                                          | C++ Language        | Golang           |
+| Problem                                                          | C++ Lang            | Go Lang          |
 | ---------------------------------------------------------------- | :-----------------: | :--------------: |
 | 0001 - Two Sum                                                   |  [✔️](CPP/0001.cpp)  | [❌]()           |
 | 0009 - Palindrome Number                                         |  [✔️](CPP/0009.cpp)  | [❌]()           |
