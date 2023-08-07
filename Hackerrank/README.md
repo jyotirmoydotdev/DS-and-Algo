@@ -18,43 +18,59 @@
 
 ## C Plus Plus
 
+| Problem                      | C++ Lang                                    |
+| ---------------------------- | :-----------------------------------------: |
+| Say "Hello, World!" with C++ | [✔️](C++/helloworld.cpp)                     |
+| Input and Output             | [✔️](C++/input_output.cpp)                   |
+| Basic Data Types             | [✔️](C++/basic_data_type.cpp)                |
+| Conditional Statements       | [✔️](C++/conditional_statements.cpp)         |
+| For Loop                     | [✔️](C++/for_loop.cpp)                       |
+| Functions                    | [✔️](C++/function.cpp)                       |
+| Pointer                      | [✔️](C++/pointer.cpp)                        |
+| Arrays Introduction          | [✔️](C++/arrays_introduction.cpp)            |
+| Variable Sized Arrays        | [✔️](C++/VariableSizedArrays.cpp)            |
+| String Stream                | [✔️](C++/StringStream.cpp)                   |
+| Strings                      | [✔️](C++/string.cpp)                         |
+| Structs                      | [✔️](C++/structs.cpp)                        |
+| Class                        | [✔️](C++/class.cpp)                          |
+| Class and Objects            | [✔️](C++/ClassesAndObjects.cpp)              |
+| Vector Sort                  | [✔️](C++/Vector_Sort.cpp)                    |
+| Vector Erase                 | [✔️](C++/Vector_Erase.cpp)                   |
+| Inheritance Introduction     | [✔️](C++/Inheritance_Introduction.cpp)       |
+| Reactangle Area              | [✔️](C++/Reactangle_Area.cpp)                |
+| Multi Level Inheritance      | [✔️](C++/Multi_Level_Inheritance.cpp)        |
 
-| Problem               | C++ Lang                                    |
-| ----------------      | :-----------------------------------------: |
-|
+## [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
 
-## 30 Days of Code
-
-| Days   | C++ Lang                            |
-| ------ | :---------------------------------: |
-| Day 00 |  [✔️](30-Days-of-Code/CPP/day00.cpp) |
-| Day 01 | [❌]()                              |
-| Day 02 |  [✔️](30-Days-of-Code/CPP/day02.cpp) |
-| Day 03 |  [✔️](30-Days-of-Code/CPP/day03.cpp) |
-| Day 04 |  [✔️](30-Days-of-Code/CPP/day04.cpp) |
-| Day 05 |  [✔️](30-Days-of-Code/CPP/day05.cpp) |
-| Day 06 | [❌]()                              |
-| Day 07 |  [✔️](30-Days-of-Code/CPP/day07.cpp) |
-| Day 08 | [❌]()                              |
-| Day 09 | [❌]()                              |
-| Day 10 | [❌]()                              |
-| Day 11 | [❌]()                              |
-| Day 12 | [❌]()                              |
-| Day 13 | [❌]()                              |
-| Day 14 | [❌]()                              |
-| Day 15 | [❌]()                              |
-| Day 16 | [❌]()                              |
-| Day 17 | [❌]()                              |
-| Day 18 | [❌]()                              |
-| Day 19 | [❌]()                              |
-| Day 20 | [❌]()                              |
-| Day 21 | [❌]()                              |
-| Day 22 | [❌]()                              |
-| Day 23 | [❌]()                              |
-| Day 24 | [❌]()                              |
-| Day 25 | [❌]()                              |
-| Day 26 | [❌]()                              |
-| Day 27 | [❌]()                              |
-| Day 28 | [❌]()                              |
-| Day 29 | [❌]()                              |
-| Day 30 | [❌]()                              |
+| Days                                           | C++ Lang                            |
+| ---------------------------------------------- | :---------------------------------: |
+| Day 00: Hello, World                           |  [✔️](30-Days-of-Code/CPP/day00.cpp) |
+| Day 01: Data Types                             | [❌]()                              |
+| Day 02: Operators                              |  [✔️](30-Days-of-Code/CPP/day02.cpp) |
+| Day 03: Intro to Conditiona Statements         |  [✔️](30-Days-of-Code/CPP/day03.cpp) |
+| Day 04: Class Vs. Instance                     |  [✔️](30-Days-of-Code/CPP/day04.cpp) |
+| Day 05: Loops                                  |  [✔️](30-Days-of-Code/CPP/day05.cpp) |
+| Day 06:Let's Review                            | [❌]()                              |
+| Day 07: Arrays                                 |  [✔️](30-Days-of-Code/CPP/day07.cpp) |
+| Day 08: Dictionaries and Maps                  | [❌]()                              |
+| Day 09: Recursion 3                            | [❌]()                              |
+| Day 10: Binary Numbers                         | [❌]()                              |
+| Day 11: 2D Arrays                              | [❌]()                              |
+| Day 12: Inheritance                            | [❌]()                              |
+| Day 13: Abstract Classes                       | [❌]()                              |
+| Day 14: Scope                                  | [❌]()                              |
+| Day 15: Linked List                            | [❌]()                              |
+| Day 16: Exceptions - string to integer         | [❌]()                              |
+| Day 17: More Exceptions                        | [❌]()                              |
+| Day 18: Queues and Stacks                      | [❌]()                              |
+| Day 19: Interfaces                             | [❌]()                              |
+| Day 20: Sorting                                | [❌]()                              |
+| Day 21: Generics                               | [❌]()                              |
+| Day 22: Binary Search Trees                    | [❌]()                              |
+| Day 23: BST Level-Order Traversal              | [❌]()                              |
+| Day 24: More Linked Lists                      | [❌]()                              |
+| Day 25: Running Time and Complexity            | [❌]()                              |
+| Day 26: Nested Logic                           | [❌]()                              |
+| Day 27: Testing                                | [❌]()                              |
+| Day 28: RegEx, Patterns and Intro to Databases | [❌]()                              |
+| Day 29: Bitwise AND                            | [❌]()                              |
