@@ -1,10 +1,13 @@
 package main
 
-//-----------------------------------
 import (
 	"regexp"
 	"strings"
 )
+
+// func main() {
+// 	isPalindrome("A man, a plan, a canal: Panama")
+// }
 
 func isPalindrome(s string) bool {
 	re := regexp.MustCompile("[^a-zA-Z0-9]+")
@@ -20,10 +23,4 @@ func isPalindrome(s string) bool {
 		sliceString[i], sliceString[j] = sliceString[j], sliceString[i]
 	}
 	return (string(sliceString) == lowerCase)
-}
-
-//-----------------------------------
-
-func main() {
-	isPalindrome("A man, a plan, a canal: Panama")
 }

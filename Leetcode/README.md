@@ -20,6 +20,6 @@
 | 0206 - Remove Linked List                                        |  [✔️](CPP/0206.cpp)  | [❌]()           | [❌]()                   |
 | 0217 - Contains Duplicate                                        |  [✔️](CPP/0217.cpp)  |  [✔️](GO/0217.go) | [❌]()                   |
 | 0234 - Palindrome Linked List                                    |  [✔️](CPP/0234.cpp)  | [❌]()           | [❌]()                   |
-| 0242 - Valid Anagram                                             |  [✔️](CPP/0242.cpp)  | [❌]()           | [❌]()                   |
+| 0242 - Valid Anagram                                             |  [✔️](CPP/0242.cpp)  |  [✔️](GO/0242.go) | [❌]()                   |
 | 0347 - Top K Frequent Elements                                   |  [✔️](CPP/0347.cpp)  | [❌]()           | [❌]()                   |
 | 2772 - Apply Operations to Make All Array Elements Equal to Zero | [❌]()              | [❌]()           | [❌]()                   |

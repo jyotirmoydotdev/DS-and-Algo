@@ -1,18 +1,17 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
-func main() {
-	nums := []int{1, 2, 3, 1, 5, 6}
-	nums2 := []int{1, 2, 3, 4, 5, 6}
-	fmt.Println(containsDuplicate(nums))
-	fmt.Println(containsDuplicate(nums2))
-	fmt.Println(containsDuplicate1(nums))
-	fmt.Println(containsDuplicate1(nums2))
-}
+// func main() {
+// 	nums := []int{1, 2, 3, 1, 5, 6}
+// 	nums2 := []int{1, 2, 3, 4, 5, 6}
+// 	fmt.Println(containsDuplicate(nums))
+// 	fmt.Println(containsDuplicate(nums2))
+// 	fmt.Println(containsDuplicate1(nums))
+// 	fmt.Println(containsDuplicate1(nums2))
+// }
 
 // usign map
 func containsDuplicate(nums []int) bool {
