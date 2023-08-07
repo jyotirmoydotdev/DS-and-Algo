@@ -42,35 +42,35 @@
 
 ## [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
 
-| Days                                           | C++ Lang                            |
-| ---------------------------------------------- | :---------------------------------: |
-| Day 00: Hello, World                           |  [✔️](30-Days-of-Code/CPP/day00.cpp) |
-| Day 01: Data Types                             | [❌]()                              |
-| Day 02: Operators                              |  [✔️](30-Days-of-Code/CPP/day02.cpp) |
-| Day 03: Intro to Conditiona Statements         |  [✔️](30-Days-of-Code/CPP/day03.cpp) |
-| Day 04: Class Vs. Instance                     |  [✔️](30-Days-of-Code/CPP/day04.cpp) |
-| Day 05: Loops                                  |  [✔️](30-Days-of-Code/CPP/day05.cpp) |
-| Day 06:Let's Review                            | [❌]()                              |
-| Day 07: Arrays                                 |  [✔️](30-Days-of-Code/CPP/day07.cpp) |
-| Day 08: Dictionaries and Maps                  | [❌]()                              |
-| Day 09: Recursion 3                            | [❌]()                              |
-| Day 10: Binary Numbers                         | [❌]()                              |
-| Day 11: 2D Arrays                              | [❌]()                              |
-| Day 12: Inheritance                            | [❌]()                              |
-| Day 13: Abstract Classes                       | [❌]()                              |
-| Day 14: Scope                                  | [❌]()                              |
-| Day 15: Linked List                            | [❌]()                              |
-| Day 16: Exceptions - string to integer         | [❌]()                              |
-| Day 17: More Exceptions                        | [❌]()                              |
-| Day 18: Queues and Stacks                      | [❌]()                              |
-| Day 19: Interfaces                             | [❌]()                              |
-| Day 20: Sorting                                | [❌]()                              |
-| Day 21: Generics                               | [❌]()                              |
-| Day 22: Binary Search Trees                    | [❌]()                              |
-| Day 23: BST Level-Order Traversal              | [❌]()                              |
-| Day 24: More Linked Lists                      | [❌]()                              |
-| Day 25: Running Time and Complexity            | [❌]()                              |
-| Day 26: Nested Logic                           | [❌]()                              |
-| Day 27: Testing                                | [❌]()                              |
-| Day 28: RegEx, Patterns and Intro to Databases | [❌]()                              |
-| Day 29: Bitwise AND                            | [❌]()                              |
+| Days                                           | C++ Lang                            | Go Lang                           | TypeScript                               |
+| ---------------------------------------------- | :---------------------------------: | :-------------------------------: | :--------------------------------------: |
+| Day 00: Hello, World                           |  [✔️](30-Days-of-Code/CPP/day00.cpp) | [❌]()                            | [❌]()                                   |
+| Day 01: Data Types                             | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 02: Operators                              |  [✔️](30-Days-of-Code/CPP/day02.cpp) | [❌]()                            | [❌]()                                   |
+| Day 03: Intro to Conditiona Statements         |  [✔️](30-Days-of-Code/CPP/day03.cpp) | [❌]()                            | [❌]()                                   |
+| Day 04: Class Vs. Instance                     |  [✔️](30-Days-of-Code/CPP/day04.cpp) | [❌]()                            | [❌]()                                   |
+| Day 05: Loops                                  |  [✔️](30-Days-of-Code/CPP/day05.cpp) | [❌]()                            | [❌]()                                   |
+| Day 06:Let's Review                            | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 07: Arrays                                 |  [✔️](30-Days-of-Code/CPP/day07.cpp) | [❌]()                            | [❌]()                                   |
+| Day 08: Dictionaries and Maps                  | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 09: Recursion 3                            | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 10: Binary Numbers                         | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 11: 2D Arrays                              | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 12: Inheritance                            | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 13: Abstract Classes                       | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 14: Scope                                  | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 15: Linked List                            | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 16: Exceptions - string to integer         | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 17: More Exceptions                        | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 18: Queues and Stacks                      | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 19: Interfaces                             | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 20: Sorting                                | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 21: Generics                               | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 22: Binary Search Trees                    | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 23: BST Level-Order Traversal              | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 24: More Linked Lists                      | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 25: Running Time and Complexity            | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 26: Nested Logic                           | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 27: Testing                                | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 28: RegEx, Patterns and Intro to Databases | [❌]()                              | [❌]()                            | [❌]()                                   |
+| Day 29: Bitwise AND                            | [❌]()                              | [❌]()                            | [❌]()                                   |
