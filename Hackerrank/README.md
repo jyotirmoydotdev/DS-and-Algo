@@ -3,18 +3,18 @@
 ## Algorithm
 
 | Problem               | C++ Lang                                    | GO Lang    | TypeScript |
-| ----------------      | :-----------------------------------------: | :--------: | :--------: | 
-| Solve Me First        | [✔️](Algorithm/CPP/Solve-me-first.cpp)       | [❌]()     | [❌]()     |
-| Simple Array Sum      | [✔️](Algorithm/CPP/Simple_array_sum.cpp)     | [❌]()     | [❌]()     |
-| Compare the Triplets  | [✔️](Algorithm/CPP/Compare_the_Triplets.cpp) | [❌]()     | [❌]()     |
-| A Very Big Sum        | [✔️](Algorithm/CPP/a_very_big_sum.cpp)       | [❌]()     | [❌]()     |
-| Diagonal Difference   | [✔️](Algorithm/CPP/Diagonal_Difference.cpp)  | [❌]()     | [❌]()     |
-| Plus Minus            | [✔️](Algorithm/CPP/Plus_minus.cpp)           | [❌]()     | [❌]()     |
-| Staircase             | [✔️](Algorithm/CPP/staircase.cpp)            | [❌]()     | [❌]()     |
-| Mini-Max Sum          | [✔️](Algorithm/CPP/Mini_Max_Sum.cpp)         | [❌]()     | [❌]()     |
-| Birthday Cake Candles | [✔️](Algorithm/CPP/Birthy_Cake_Candel.cpp)   | [❌]()     | [❌]()     |
-| Time Conversion       | [✔️](Algorithm/CPP/Time_Conversion.cpp)      | [❌]()     | [❌]()     |
-| Grading Students      | [✔️](Algorithm/CPP/Grading_Students.cpp)     | [❌]()     | [❌]()     |
+| --------------------- | :-----------------------------------------: | :--------: | :--------: | 
+| Solve Me First        | [✔️](Algorithm/CPP/Solve-me-first.cpp)       | [❌]()     | [❌]()      |
+| Simple Array Sum      | [✔️](Algorithm/CPP/Simple_array_sum.cpp)     | [❌]()     | [❌]()      |
+| Compare the Triplets  | [✔️](Algorithm/CPP/Compare_the_Triplets.cpp) | [❌]()     | [❌]()      |
+| A Very Big Sum        | [✔️](Algorithm/CPP/a_very_big_sum.cpp)       | [❌]()     | [❌]()      |
+| Diagonal Difference   | [✔️](Algorithm/CPP/Diagonal_Difference.cpp)  | [❌]()     | [❌]()      |
+| Plus Minus            | [✔️](Algorithm/CPP/Plus_minus.cpp)           | [❌]()     | [❌]()      |
+| Staircase             | [✔️](Algorithm/CPP/staircase.cpp)            | [❌]()     | [❌]()      |
+| Mini-Max Sum          | [✔️](Algorithm/CPP/Mini_Max_Sum.cpp)         | [❌]()     | [❌]()      |
+| Birthday Cake Candles | [✔️](Algorithm/CPP/Birthy_Cake_Candel.cpp)   | [❌]()     | [❌]()      |
+| Time Conversion       | [✔️](Algorithm/CPP/Time_Conversion.cpp)      | [❌]()     | [❌]()      |
+| Grading Students      | [✔️](Algorithm/CPP/Grading_Students.cpp)     | [❌]()     | [❌]()      |
 
 ## C Plus Plus
 
@@ -74,3 +74,10 @@
 | Day 27: Testing                                | [❌]()                              | [❌]()                            | [❌]()                                   |
 | Day 28: RegEx, Patterns and Intro to Databases | [❌]()                              | [❌]()                            | [❌]()                                   |
 | Day 29: Bitwise AND                            | [❌]()                              | [❌]()                            | [❌]()                                   |
+
+# 1 Week Preparation Kit
+
+| Problem      | GO Lang                                        | TypeScript | C++ Lang |
+| ----------   | :--------------------------------------------: | :--------: | :------: |
+| Plus Minus   | [✔️](1-Week-Preparation-Kit/GO/Plus_Minus.go)   | [❌]()     | [❌]()   | 
+| Mini-Max Sum | [✔️](1-Week-Preparation-Kit/GO/Mini_Max_Sum.go) | [❌]()     | [❌]()   |
