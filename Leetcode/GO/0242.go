@@ -4,6 +4,12 @@ import (
 	"sort"
 )
 
+// func main() {
+// 	s := "anagram"
+// 	t := "nagaram"
+// 	println(isAnagram2(s, t))
+// }
+
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
@@ -21,8 +27,29 @@ func isAnagram(s string, t string) bool {
 	sortedS := string(runeStringS)
 	sortedT := string(runeStringT)
 
-	if sortedS == sortedT {
-		return true
+	return sortedS == sortedT
+}
+
+// O(n)
+func isAnagram2(s string, t string) bool {
+	if len(s) != len(t) {
+		return false
 	}
-	return false
+
+	runeStringS := []rune(s)
+	runeStringT := []rune(t)
+
+	mapS, mapT := make(map[rune]int), make(map[rune]int)
+
+	for i := 0; i < len(runeStringS); i++ {
+		mapS[runeStringS[i]]++
+		mapT[runeStringT[i]]++
+	}
+	for key, Value := range mapS {
+		if mapT[key] != Value {
+			return false
+		}
+	}
+
+	return true
 }
