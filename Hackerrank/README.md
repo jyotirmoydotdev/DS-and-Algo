@@ -84,3 +84,4 @@
 | Time Conversion     | [✔️](1-Week-Preparation-Kit/GO/Time_Conversion.go)     | [❌]()     | [❌]()    |
 | Lonely Integer      | [✔️](1-Week-Preparation-Kit/GO/Lonely_Integer.go)      | [❌]()     | [❌]()    |
 | Diagonal Difference | [✔️](1-Week-Preparation-Kit/GO/Diagonal_Difference.go) | [❌]()     | [❌]()    |
+| Counting Sort 1     | [✔️](1-Week-Preparation-Kit/GO/Counting_Sort_1.go)     | [❌]()     | [❌]()    |
