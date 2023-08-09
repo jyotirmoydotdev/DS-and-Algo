@@ -1,14 +1,15 @@
 package main
 
 import (
+	"fmt"
 	"sort"
 )
 
-// func main() {
-// 	s := "anagram"
-// 	t := "nagaram"
-// 	println(isAnagram2(s, t))
-// }
+func main() {
+	s := "anagram"
+	t := "nagaram"
+	println(isAnagram2(s, t))
+}
 
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
@@ -36,17 +37,37 @@ func isAnagram2(s string, t string) bool {
 		return false
 	}
 
-	runeStringS := []rune(s)
-	runeStringT := []rune(t)
+	mapS, mapT := make(map[uint8]int), make(map[uint8]int)
 
-	mapS, mapT := make(map[rune]int), make(map[rune]int)
-
-	for i := 0; i < len(runeStringS); i++ {
-		mapS[runeStringS[i]]++
-		mapT[runeStringT[i]]++
+	for i := 0; i < len(s); i++ {
+		mapS[s[i]]++
+		mapT[t[i]]++
 	}
 	for key, Value := range mapS {
 		if mapT[key] != Value {
+			return false
+		}
+	}
+
+	return true
+}
+
+func isAnagram3(s string, t string) bool {
+	if len(s) != len(t) {
+		return false
+	}
+
+	var freq [26]int
+
+	for idx := 0; idx < len(s); idx++ {
+		fmt.Printf("s[idx]-'a' => s[%v]-'a' => %v\n", idx, s[idx])
+		fmt.Printf("s[idx]-'a' => s[%v]-'a' => %v\n\n", idx, t[idx])
+		freq[s[idx]-'a']++
+		freq[t[idx]-'a']--
+	}
+
+	for idx := 0; idx < len(freq); idx++ {
+		if freq[idx] != 0 {
 			return false
 		}
 	}

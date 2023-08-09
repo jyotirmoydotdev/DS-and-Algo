@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(twoSum([]int{3, 2, 4}, 6))
+	fmt.Println(twoSum([]int{2, 3, 3, 4, 7, 8, 4, 6, 9, 33, 0}, 35))
 }
 
 // one pass hash table O(n)
@@ -11,7 +11,6 @@ func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	for i, num := range nums {
 		if _, ok := m[target-num]; ok {
-			fmt.Println("ok :", ok)
 			return []int{m[target-num], i}
 		}
 		m[num] = i
