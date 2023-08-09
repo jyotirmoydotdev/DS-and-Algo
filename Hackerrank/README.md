@@ -77,8 +77,10 @@
 
 # 1 Week Preparation Kit
 
-| Problem         | GO Lang                                           | TypeScript | C++ Lang |
-| --------------- | :-----------------------------------------------: | :--------: | :------: |
-| Plus Minus      | [✔️](1-Week-Preparation-Kit/GO/Plus_Minus.go)      | [❌]()     | [❌]()   | 
-| Mini-Max Sum    | [✔️](1-Week-Preparation-Kit/GO/Mini_Max_Sum.go)    | [❌]()     | [❌]()   |
-| Time Conversion | [✔️](1-Week-Preparation-Kit/GO/Time_Conversion.go) | [❌]()     | [❌]()   |
+| Problem             | GO Lang                                               | TypeScript | C++ Lang |
+| ------------------- | :---------------------------------------------------: | :--------: | :------: |
+| Plus Minus          | [✔️](1-Week-Preparation-Kit/GO/Plus_Minus.go)          | [❌]()     | [❌]()    | 
+| Mini-Max Sum        | [✔️](1-Week-Preparation-Kit/GO/Mini_Max_Sum.go)        | [❌]()     | [❌]()    |
+| Time Conversion     | [✔️](1-Week-Preparation-Kit/GO/Time_Conversion.go)     | [❌]()     | [❌]()    |
+| Lonely Integer      | [✔️](1-Week-Preparation-Kit/GO/Lonely_Integer.go)      | [❌]()     | [❌]()    |
+| Diagonal Difference | [✔️](1-Week-Preparation-Kit/GO/Diagonal_Difference.go) | [❌]()     | [❌]()    |
