@@ -1,10 +1,8 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println(twoSum([]int{2, 3, 3, 4, 7, 8, 4, 6, 9, 33, 0}, 35))
-}
+// func main() {
+// 	fmt.Println(twoSum([]int{2, 3, 3, 4, 7, 8, 4, 6, 9, 33, 0}, 35))
+// }
 
 // one pass hash table O(n)
 func twoSum(nums []int, target int) []int {
