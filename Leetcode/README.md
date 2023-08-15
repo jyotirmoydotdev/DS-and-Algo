@@ -1,25 +1,28 @@
 # Leetcode
 
-| Problem                                                          | C++ Lang            | Go Lang          | TypeScript               |
-| ---------------------------------------------------------------- | :-----------------: | :--------------: | :----------------------: |
-| 0001 - Two Sum                                                   |  [✔️](CPP/0001.cpp)  |  [✔️](Go/0001.go) | [❌]()                   |
-| 0009 - Palindrome Number                                         |  [✔️](CPP/0009.cpp)  | [❌]()           | [❌]()                   |
-| 0013 - Roman to Integer                                          |  [✔️](CPP/0013.cpp)  | [❌]()           | [❌]()                   |
-| 0014 - Longest Common Prefix                                     |  [✔️](CPP/0014.cpp)  | [❌]()           | [❌]()                   |
-| 0021 - Merge Two Sorted Lists                                    |  [✔️](CPP/0021.cpp)  | [❌]()           | [❌]()                   |
-| 0026 - Remove Duplicates from Sorted Array                       |  [✔️](CPP/0026.cpp)  | [❌]()           | [❌]()                   |
-| 0027 - Remove Element                                            |  [✔️](CPP/0027.cpp)  | [❌]()           | [❌]()                   |
-| 0035 - Search Insert Position                                    |  [✔️](CPP/0035.cpp)  | [❌]()           | [❌]()                   |
-| 0049 - Group Anagrams                                            |  [✔️](CPP/0049.cpp)  | [❌]()           | [❌]()                   |
-| 0066 - Plus One                                                  |  [✔️](CPP/0066.cpp)  | [❌]()           | [❌]()                   |
-| 0083 - Remove Duplicates from Sorted List                        |  [✔️](CPP/0083.cpp)  | [❌]()           | [❌]()                   |
-| 0088 - Merge Sorted Array                                        |  [✔️](CPP/0088.cpp)  | [❌]()           | [❌]()                   |
-| 0141 - Linked List Cycle                                         |  [✔️](CPP/0141.cpp)  | [❌]()           | [❌]()                   |
-| 0125 - Valid Palindrome                                          |  [❌]()             |  [✔️](GO/0125.go) | [❌]()                   |
-| 0203 - Remove Linked List Elements                               |  [✔️](CPP/0203.cpp)  | [❌]()           | [❌]()                   |
-| 0206 - Remove Linked List                                        |  [✔️](CPP/0206.cpp)  | [❌]()           | [❌]()                   |
-| 0217 - Contains Duplicate                                        |  [✔️](CPP/0217.cpp)  |  [✔️](GO/0217.go) | [❌]()                   |
-| 0234 - Palindrome Linked List                                    |  [✔️](CPP/0234.cpp)  | [❌]()           | [❌]()                   |
-| 0242 - Valid Anagram                                             |  [✔️](CPP/0242.cpp)  |  [✔️](GO/0242.go) | [❌]()                   |
-| 0347 - Top K Frequent Elements                                   |  [✔️](CPP/0347.cpp)  | [❌]()           | [❌]()                   |
-| 2772 - Apply Operations to Make All Array Elements Equal to Zero | [❌]()              | [❌]()           | [❌]()                   |
+| Problem                                                          | C++ Lang           | Go Lang         | TypeScript              | Blog |       
+| ---------------------------------------------------------------- | :----------------: | :-------------: | :---------------------: | :---:|
+| 0001 - Two Sum                                                   | [✔️](CPP/0001.cpp)  | [✔️](Go/0001.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0001) |
+| 0009 - Palindrome Number                                         | [✔️](CPP/0009.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
+| 0013 - Roman to Integer                                          | [✔️](CPP/0013.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
+| 0014 - Longest Common Prefix                                     | [✔️](CPP/0014.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
+| 0021 - Merge Two Sorted Lists                                    | [✔️](CPP/0021.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
+| 0026 - Remove Duplicates from Sorted Array                       | [✔️](CPP/0026.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
+| 0027 - Remove Element                                            | [✔️](CPP/0027.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
+| 0035 - Search Insert Position                                    | [✔️](CPP/0035.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
+| 0036 - Valid Sudoku                                              | [𝙓]()              | [✔️](GO/0036.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0036) |
+| 0049 - Group Anagrams                                            | [✔️](CPP/0049.cpp)  | [✔️](GO/0049.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0049) |
+| 0066 - Plus One                                                  | [✔️](CPP/0066.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0083 - Remove Duplicates from Sorted List                        | [✔️](CPP/0083.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0088 - Merge Sorted Array                                        | [✔️](CPP/0088.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0141 - Linked List Cycle                                         | [✔️](CPP/0141.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0125 - Valid Palindrome                                          | [𝙓]()              | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0128 - Longest Consecutive Sequence                              | [𝙓]()              | [✔️](GO/0128.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0128) |
+| 0203 - Remove Linked List Elements                               | [✔️](CPP/0203.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0206 - Remove Linked List                                        | [✔️](CPP/0206.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0217 - Contains Duplicate                                        | [✔️](CPP/0217.cpp)  | [✔️](GO/0217.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0217) |
+| 0234 - Palindrome Linked List                                    | [✔️](CPP/0234.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0238 - Product of Array Except Self                              | [𝙓]()              | [✔️](GO/0238.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0238) |
+| 0242 - Valid Anagram                                             | [✔️](CPP/0242.cpp)  | [✔️](GO/0242.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0242) |
+| 0347 - Top K Frequent Elements                                   | [✔️](CPP/0347.cpp)  | [✔️](GO/0347.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0347) |
+| 2772 - Apply Operations to Make All Array Elements Equal to Zero | [𝙓]()              | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |

@@ -2,12 +2,10 @@
 
 package main
 
-import "fmt"
-
-func main() {
-	nums := []int{1, 2, 3, 4}
-	fmt.Println(productExceptSelf(nums))
-}
+// func main() {
+// 	nums := []int{1, 2, 3, 4}
+// 	fmt.Println(productExceptSelf(nums))
+// }
 
 func productExceptSelf(nums []int) []int {
 	answer := make([]int, len(nums))
@@ -23,17 +21,3 @@ func productExceptSelf(nums []int) []int {
 	}
 	return answer
 }
-
-// func productExceptSelf1(nums []int) []int {
-// 	answer := []int{}
-// 	for i := 0; i < len(nums); i++ {
-// 		product := 1
-// 		for j := 0; j < len(nums); j++ {
-// 			if i != j {
-// 				product *= nums[j]
-// 			}
-// 		}
-// 		answer = append(answer, product)
-// 	}
-// 	return answer
-// }
