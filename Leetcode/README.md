@@ -1,11 +1,12 @@
 # Leetcode
 
-| Problem                                                          | C++ Lang           | Go Lang         | TypeScript              | Blog |       
-| ---------------------------------------------------------------- | :----------------: | :-------------: | :---------------------: | :---:|
+| Problem                                                          | C++ Lang           | Go Lang         | TypeScript              | Blog                                                 |       
+| ---------------------------------------------------------------- | :----------------: | :-------------: | :---------------------: | :---------------------------------------------------:|
 | 0001 - Two Sum                                                   | [✔️](CPP/0001.cpp)  | [✔️](Go/0001.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0001) |
 | 0009 - Palindrome Number                                         | [✔️](CPP/0009.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
 | 0013 - Roman to Integer                                          | [✔️](CPP/0013.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
 | 0014 - Longest Common Prefix                                     | [✔️](CPP/0014.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
+| 0015 - 3Sum                                                      | [𝙓]()              | [✔️](GO/0015.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0015) |
 | 0021 - Merge Two Sorted Lists                                    | [✔️](CPP/0021.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
 | 0026 - Remove Duplicates from Sorted Array                       | [✔️](CPP/0026.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
 | 0027 - Remove Element                                            | [✔️](CPP/0027.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
@@ -16,8 +17,9 @@
 | 0083 - Remove Duplicates from Sorted List                        | [✔️](CPP/0083.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0088 - Merge Sorted Array                                        | [✔️](CPP/0088.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0141 - Linked List Cycle                                         | [✔️](CPP/0141.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
-| 0125 - Valid Palindrome                                          | [𝙓]()              | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0125 - Valid Palindrome                                          | [𝙓]()              | [✔️](GO/0125.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0125) |
 | 0128 - Longest Consecutive Sequence                              | [𝙓]()              | [✔️](GO/0128.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0128) |
+| 0167 - Two Sum II - Input Array Is Sorted                        | [𝙓]()              | [✔️](GO/0167.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0167) |
 | 0203 - Remove Linked List Elements                               | [✔️](CPP/0203.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0206 - Remove Linked List                                        | [✔️](CPP/0206.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0217 - Contains Duplicate                                        | [✔️](CPP/0217.cpp)  | [✔️](GO/0217.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0217) |
