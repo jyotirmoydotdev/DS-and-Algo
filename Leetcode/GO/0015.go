@@ -2,12 +2,10 @@
 
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	nums := []int{0, 0, 0}
+	nums := []int{-1, 0, 1, 2, -1, -4}
 	fmt.Println("threeSum:", threeSum(nums))
 }
 
