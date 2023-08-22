@@ -1,29 +1,28 @@
-package goo
+package main
+
+import "fmt"
 
 func main() {
-
+	height := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
+	fmt.Println("maxArea:", maxArea(height))
 }
 
 func maxArea(height []int) int {
-	left := 0
-	right := len(height) - 1
-	res := 0
+	left, right := 0, (len(height) - 1)
+	result := 0
 
 	for left < right {
 		area := min(height[left], height[right]) * (right - left)
-
-		if area > res {
-			res = area
+		if result < area {
+			result = area
 		}
-
 		if height[left] > height[right] {
 			right--
 		} else {
 			left++
 		}
 	}
-
-	return res
+	return result
 }
 
 func min(a, b int) int {

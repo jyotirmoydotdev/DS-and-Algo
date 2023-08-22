@@ -13,6 +13,7 @@
 | 0027 - Remove Element                                            | [✔️](CPP/0027.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
 | 0035 - Search Insert Position                                    | [✔️](CPP/0035.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
 | 0036 - Valid Sudoku                                              | [𝙓]()              | [✔️](GO/0036.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0036) |
+| 0042 - Trapping Rain Water                                       | [𝙓]()              | [✔️](GO/0042.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0042) |
 | 0049 - Group Anagrams                                            | [✔️](CPP/0049.cpp)  | [✔️](GO/0049.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0049) |
 | 0066 - Plus One                                                  | [✔️](CPP/0066.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0083 - Remove Duplicates from Sorted List                        | [✔️](CPP/0083.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
