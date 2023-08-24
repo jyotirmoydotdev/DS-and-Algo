@@ -2,12 +2,10 @@
 
 package main
 
-import "fmt"
-
-func main() {
-	nums := []int{-1, 0, 1, 2, -1, -4}
-	fmt.Println("threeSum:", threeSum(nums))
-}
+// func main() {
+// 	nums := []int{-1, 0, 1, 2, -1, -4}
+// 	fmt.Println("threeSum:", threeSum(nums))
+// }
 
 func threeSum(nums []int) [][]int {
 	quickSort(nums) //NOTE:  we can also use sort.Ints(nums)

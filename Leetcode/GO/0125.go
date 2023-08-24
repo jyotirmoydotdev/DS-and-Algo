@@ -1,15 +1,14 @@
 package main
 
 import (
-	"fmt"
 	"regexp"
 	"strings"
 	"unicode"
 )
 
-func main() {
-	fmt.Println(isPalindrome2("A man, a plan, a canal: Panama"))
-}
+// func main() {
+// 	fmt.Println(isPalindrome2("A man, a plan, a canal: Panama"))
+// }
 
 func isPalindrome0(s string) bool {
 	re := regexp.MustCompile("[^a-zA-Z0-9]+")

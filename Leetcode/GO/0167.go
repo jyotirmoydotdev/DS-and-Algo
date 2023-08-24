@@ -1,14 +1,10 @@
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	number := []int{2, 7, 11, 15}
-	target := 9
-	fmt.Println("twoSum:", twoSum2_2(number, target))
-}
+// func main() {
+// 	number := []int{2, 7, 11, 15}
+// 	target := 9
+// 	fmt.Println("twoSum:", twoSum2_2(number, target))
+// }
 
 func twoSum2_1(numbers []int, target int) []int {
 	m := make(map[int]int)

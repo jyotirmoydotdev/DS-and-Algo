@@ -2,36 +2,36 @@
 
 package main
 
-func main() {
-	// Create a new MinStack instance
-	stack := Constructor()
+// func main() {
+// 	// Create a new MinStack instance
+// 	stack := Constructor()
 
-	// Push some elements onto the stack
-	stack.Push(5)
+// 	// Push some elements onto the stack
+// 	stack.Push(5)
 
-	// // check the last min
-	// fmt.Println("Last Min after 1 push: ", stack.getLastmin())
+// 	// // check the last min
+// 	// fmt.Println("Last Min after 1 push: ", stack.getLastmin())
 
-	stack.Push(2)
-	stack.Push(7)
-	stack.Push(1)
+// 	stack.Push(2)
+// 	stack.Push(7)
+// 	stack.Push(1)
 
-	// Get and print the top element
-	// fmt.Println("Top element:", stack.Top()) // Output: 1
+// 	// Get and print the top element
+// 	// fmt.Println("Top element:", stack.Top()) // Output: 1
 
-	// // Get and print the minimum element
-	// fmt.Println("Minimum element:", stack.GetMin()) // Output: 1
+// 	// // Get and print the minimum element
+// 	// fmt.Println("Minimum element:", stack.GetMin()) // Output: 1
 
-	// // Pop an element from the stack
-	// stack.Pop()
+// 	// // Pop an element from the stack
+// 	// stack.Pop()
 
-	// // Get and print the updated top element
-	// fmt.Println("Top element after pop:", stack.Top()) // Output: 7
+// 	// // Get and print the updated top element
+// 	// fmt.Println("Top element after pop:", stack.Top()) // Output: 7
 
-	// // Get and print the updated minimum element
-	// fmt.Println("Minimum element after pop:", stack.GetMin()) // Output: 2
+// 	// // Get and print the updated minimum element
+// 	// fmt.Println("Minimum element after pop:", stack.GetMin()) // Output: 2
 
-}
+// }
 
 type MinStack struct {
 	top *StackNode
