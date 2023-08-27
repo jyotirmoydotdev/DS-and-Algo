@@ -3,6 +3,7 @@
 | Problem                                                          | C++ Lang           | Go Lang         | TypeScript              | Blog                                                 |       
 | ---------------------------------------------------------------- | :----------------: | :-------------: | :---------------------: | :---------------------------------------------------:|
 | 0001 - Two Sum                                                   | [✔️](CPP/0001.cpp)  | [✔️](GO/0001.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0001) |
+| 0003 - Longest Substring Without Repeating Characters            | [𝙓]()              | [✔️](GO/0003.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0003) |
 | 0009 - Palindrome Number                                         | [✔️](CPP/0009.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
 | 0011 - Container With Most Water                                 | [𝙓]()              | [✔️](GO/0011.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0011) | 
 | 0013 - Roman to Integer                                          | [✔️](CPP/0013.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) | 
@@ -18,6 +19,7 @@
 | 0066 - Plus One                                                  | [✔️](CPP/0066.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0083 - Remove Duplicates from Sorted List                        | [✔️](CPP/0083.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0088 - Merge Sorted Array                                        | [✔️](CPP/0088.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0121 - Best Time to Buy and Sell Stock                           | [𝙓]()              | [✔️](GO/0121.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0121) |
 | 0141 - Linked List Cycle                                         | [✔️](CPP/0141.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0125 - Valid Palindrome                                          | [𝙓]()              | [✔️](GO/0125.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0125) |
 | 0128 - Longest Consecutive Sequence                              | [𝙓]()              | [✔️](GO/0128.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0128) |
