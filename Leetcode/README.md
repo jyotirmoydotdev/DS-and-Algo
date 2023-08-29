@@ -31,4 +31,5 @@
 | 0238 - Product of Array Except Self                              | [𝙓]()              | [✔️](GO/0238.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0238) |
 | 0242 - Valid Anagram                                             | [✔️](CPP/0242.cpp)  | [✔️](GO/0242.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0242) |
 | 0347 - Top K Frequent Elements                                   | [✔️](CPP/0347.cpp)  | [✔️](GO/0347.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0347) |
+| 0424 - Longest Repeating Character Replacement                   | [𝙓]()              | [✔️](GO/0424.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0424) |
 | 2772 - Apply Operations to Make All Array Elements Equal to Zero | [𝙓]()              | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
