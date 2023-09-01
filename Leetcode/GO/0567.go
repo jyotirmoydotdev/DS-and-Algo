@@ -1,11 +1,11 @@
 // 567. Permutation in String
 package main
 
-//	func main() {
-//		s1 := "abo"
-//		s2 := "eidbaooo"
-//		fmt.Println("checkInclusion:", checkInclusion(s1, s2))
-//	}
+// func main() {
+// 	s1 := "ab"
+// 	s2 := "eidbaooo"
+// 	fmt.Println("checkInclusion:", checkInclusion(s1, s2))
+// }
 func checkInclusion(s1 string, s2 string) bool {
 	if len(s1) > len(s2) {
 		return false
@@ -36,7 +36,7 @@ func checkInclusion(s1 string, s2 string) bool {
 			matches--
 		}
 		index = s2[l] - 'a'
-		s2Count[index]--
+		s2Count[index]-- 
 		if s1Count[index] == s2Count[index] {
 			matches++
 		} else if s1Count[index]-1 == s2Count[index] {
