@@ -22,9 +22,10 @@
 | 0083 - Remove Duplicates from Sorted List                        | [✔️](CPP/0083.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0088 - Merge Sorted Array                                        | [✔️](CPP/0088.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0121 - Best Time to Buy and Sell Stock                           | [𝙓]()              | [✔️](GO/0121.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0121) |
-| 0141 - Linked List Cycle                                         | [✔️](CPP/0141.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0125 - Valid Palindrome                                          | [𝙓]()              | [✔️](GO/0125.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0125) |
 | 0128 - Longest Consecutive Sequence                              | [𝙓]()              | [✔️](GO/0128.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0128) |
+| 0141 - Linked List Cycle                                         | [✔️](CPP/0141.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
+| 0155 - Min Stack                                                 | [𝙓]()              | [✔️](GO/0155.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0155) |
 | 0167 - Two Sum II - Input Array Is Sorted                        | [𝙓]()              | [✔️](GO/0167.go) | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-0167) |
 | 0203 - Remove Linked List Elements                               | [✔️](CPP/0203.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |
 | 0206 - Remove Linked List                                        | [✔️](CPP/0206.cpp)  | [𝙓]()           | [𝙓]()                   | [Link](https://jyotirmoy.hashnode.dev/leetcode-) |

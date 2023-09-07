@@ -1,10 +1,10 @@
 // 20. Valid Parentheses
 package main
-import "fmt"
-func main()  {
-	s:="{{}}}}}}"
-	fmt.Println("isValid:",isValid(s))
-}
+// import "fmt"
+// func main()  {
+// 	s:="{{}}}}}}"
+// 	fmt.Println("isValid:",isValid(s))
+// }
 func isValid(s string) bool {
 	stack := make([]byte,0)
 	pairs :=  map[byte]byte{
