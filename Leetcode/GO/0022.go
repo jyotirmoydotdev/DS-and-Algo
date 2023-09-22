@@ -1,22 +1,23 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
-func main() {
-	ans := generateParenthesis(3)
-	for i, e := range ans {
-		fmt.Printf("%v = %v\n", i, e)
-	}
-}
+// func main() {
+// 	ans := generateParenthesis(3)
+// 	fmt.Println("ans:", ans)
+// 	for i, e := range ans {
+// 		fmt.Printf("%v = %v\n", i, e)
+// 	}
+// }
 
 func generateParenthesis(n int) []string {
 	var stack []string
 	var res []string
+
 	var backtrack func(int, int)
-	backtrack = func(openN int, closedN int) {
+	backtrack = func(openN, closedN int) {
 		if openN == n && closedN == n && openN == closedN {
 			res = append(res, strings.Join(stack, ""))
 			return
@@ -26,7 +27,7 @@ func generateParenthesis(n int) []string {
 			backtrack(openN+1, closedN)
 			pop(&stack)
 		}
-		if closedN < openN {
+		if openN > closedN {
 			stack = append(stack, ")")
 			backtrack(openN, closedN+1)
 			pop(&stack)
@@ -35,7 +36,8 @@ func generateParenthesis(n int) []string {
 	backtrack(0, 0)
 	return res
 }
-func pop(list *[]string) {
-	length := len(*list)
-	*list = (*list)[:length-1]
+
+func pop(stack *[]string) {
+	length := len(*stack)
+	*stack = (*stack)[:length-1]
 }
