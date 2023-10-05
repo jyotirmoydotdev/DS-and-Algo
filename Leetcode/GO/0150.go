@@ -4,6 +4,11 @@ import (
 	"strconv"
 )
 
+// func main() {
+// 	slice := []string{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}
+// 	fmt.Println(evalRPN(slice))
+// }
+
 func evalRPN(tokens []string) int {
 	var stack []int
 	for _, val := range tokens {
@@ -30,8 +35,3 @@ func pop(stack *[]int) int {
 	*stack = (*stack)[:len(*stack)-1]
 	return top
 }
-
-// func main() {
-// 	slice := []string{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}
-// 	fmt.Println(evalRPN(slice))
-// }
