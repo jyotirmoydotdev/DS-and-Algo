@@ -1,10 +1,12 @@
 package main
 
-// func main() {
-// 	strs := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
-// 	groupAnagrams(strs)
+import "fmt"
 
-// }
+func main() {
+	strs := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
+	groupAnagrams(strs)
+
+}
 
 func groupAnagrams(strs []string) [][]string {
 	anagramMap := make(map[[26]int][]string)
@@ -14,6 +16,9 @@ func groupAnagrams(strs []string) [][]string {
 			count[c-'a']++
 		}
 		anagramMap[count] = append(anagramMap[count], s)
+	}
+	for k, v := range anagramMap {
+		fmt.Println(k, v)
 	}
 	result := make([][]string, len(anagramMap))
 	idx := 0

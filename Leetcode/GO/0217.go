@@ -15,10 +15,10 @@ import (
 
 // usign map
 func containsDuplicate(nums []int) bool {
-	nums_map := map[int]int{}
+	nums_map := map[int]bool{}
 	for _, n := range nums {
-		if _, ok := nums_map[n]; !ok {
-			nums_map[n] = 1
+		if ok := nums_map[n]; !ok {
+			nums_map[n] = true
 		} else {
 			return true
 		}
@@ -37,6 +37,5 @@ func containsDuplicate1(nums []int) bool {
 			return true
 		}
 	}
-
 	return false
 }

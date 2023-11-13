@@ -22,11 +22,6 @@ func topKFrequent(nums []int, k int) []int {
 	}
 
 	res := []int{}
-	for i := len(countSlice) - 1; i > 0; i-- {
-		res = append(res, countSlice[i]...)
-		if len(res) == k {
-			return res
-		}
-	}
+
 	return res
 }

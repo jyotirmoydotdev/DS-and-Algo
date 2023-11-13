@@ -5,11 +5,11 @@ import (
 	"sort"
 )
 
-// func main() {
-// 	s := "anagram"
-// 	t := "nagaram"
-// 	println(isAnagram2(s, t))
-// }
+func main() {
+	s := "anagram"
+	t := "nagaram"
+	println(isAnagram2(s, t))
+}
 
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
