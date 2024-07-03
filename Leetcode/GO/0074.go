@@ -1,16 +1,14 @@
 package main
 
-import "fmt"
-
-func main() {
-	// target := 3
-	slice := [][]int{
-		{1, 3, 5, 7},
-		{10, 11, 16, 20},
-		{23, 30, 34, 60},
-	}
-	fmt.Println(searchMatrix(slice, 3))
-}
+// func main() {
+// 	// target := 3
+// 	slice := [][]int{
+// 		{1, 3, 5, 7},
+// 		{10, 11, 16, 20},
+// 		{23, 30, 34, 60},
+// 	}
+// 	fmt.Println(searchMatrix(slice, 3))
+// }
 
 func searchMatrix(matrix [][]int, target int) bool {
 	ROWS := len(matrix)

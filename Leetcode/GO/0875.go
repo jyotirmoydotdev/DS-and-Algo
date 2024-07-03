@@ -1,13 +1,11 @@
 package main
 
-import "fmt"
-
-func main() {
-	slice := []int{3, 6, 7, 11}
-	hour := 8
-	news := minEatingSpeed(slice, hour)
-	fmt.Println("Ans:", news)
-}
+// func main() {
+// 	slice := []int{3, 6, 7, 11}
+// 	hour := 8
+// 	news := minEatingSpeed(slice, hour)
+// 	fmt.Println("Ans:", news)
+// }
 
 func canEat(piles []int, timeLimit, speed int) bool {
 	timeNeed := 0

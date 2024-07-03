@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	strs := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
-	groupAnagrams(strs)
+// func main() {
+// 	strs := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
+// 	groupAnagrams(strs)
 
-}
+// }
 
 func groupAnagrams(strs []string) [][]string {
 	anagramMap := make(map[[26]int][]string)
