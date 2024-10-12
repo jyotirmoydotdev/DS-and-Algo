@@ -18,38 +18,38 @@ import "fmt"
 // }
 
 // Time Complexity O(n2)
-func isValidSudoku(board [][]byte) bool {
+// func isValidSudoku(board [][]byte) bool {
 
-	hashMap := make(map[string]bool)
+// 	hashMap := make(map[string]bool)
 
-	for i := 0; i < 9; i++ {
-		for j := 0; j < 9; j++ {
+// 	for i := 0; i < 9; i++ {
+// 		for j := 0; j < 9; j++ {
 
-			row := i
-			column := j
+// 			row := i
+// 			column := j
 
-			current_val := string(board[i][j])
+// 			current_val := string(board[i][j])
 
-			if current_val == "." {
-				continue
-			}
-			_, ok1 := hashMap[current_val+"row"+string(row)]
-			_, ok2 := hashMap[current_val+"col"+string(column)]
-			_, ok3 := hashMap[current_val+"gri"+string(i/3)+string(j/3)]
+// 			if current_val == "." {
+// 				continue
+// 			}
+// 			_, ok1 := hashMap[current_val+"row"+string(row)]
+// 			_, ok2 := hashMap[current_val+"col"+string(column)]
+// 			_, ok3 := hashMap[current_val+"gri"+string(i/3)+string(j/3)]
 
-			if ok1 || ok2 || ok3 {
-				return false
-			} else {
-				hashMap[current_val+"row"+string(row)] = true
-				hashMap[current_val+"col"+string(column)] = true
-				hashMap[current_val+"gri"+string(i/3)+string(j/3)] = true
-			}
-			fmt.Println(hashMap)
-		}
-		fmt.Println("")
-	}
-	return true
-}
+// 			if ok1 || ok2 || ok3 {
+// 				return false
+// 			} else {
+// 				hashMap[current_val+"row"+string(row)] = true
+// 				hashMap[current_val+"col"+string(column)] = true
+// 				hashMap[current_val+"gri"+string(i/3)+string(j/3)] = true
+// 			}
+// 			fmt.Println(hashMap)
+// 		}
+// 		fmt.Println("")
+// 	}
+// 	return true
+// }
 
 // Time Complexity O(n2) but faster than above
 func isValidSudoku1(board [][]byte) bool {

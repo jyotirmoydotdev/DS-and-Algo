@@ -14,14 +14,14 @@ func evalRPN(tokens []string) int {
 	for _, val := range tokens {
 		switch val {
 		case "+":
-			stack = append(stack, pop(&stack)+pop(&stack))
+			stack = append(stack, pop1(&stack)+pop1(&stack))
 		case "-":
-			a, b := pop(&stack), pop(&stack)
+			a, b := pop1(&stack), pop1(&stack)
 			stack = append(stack, b-a)
 		case "*":
-			stack = append(stack, pop(&stack)*pop(&stack))
+			stack = append(stack, pop1(&stack)*pop1(&stack))
 		case "/":
-			a, b := pop(&stack), pop(&stack)
+			a, b := pop1(&stack), pop1(&stack)
 			stack = append(stack, b/a)
 		default:
 			i, _ := strconv.Atoi(val)
@@ -30,7 +30,7 @@ func evalRPN(tokens []string) int {
 	}
 	return stack[0]
 }
-func pop(stack *[]int) int {
+func pop1(stack *[]int) int {
 	top := (*stack)[len(*stack)-1]
 	*stack = (*stack)[:len(*stack)-1]
 	return top

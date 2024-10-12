@@ -25,19 +25,14 @@ func generateParenthesis(n int) []string {
 		if openN < n {
 			stack = append(stack, "(")
 			backtrack(openN+1, closedN)
-			pop(&stack)
+			Pop(&stack)
 		}
 		if openN > closedN {
 			stack = append(stack, ")")
 			backtrack(openN, closedN+1)
-			pop(&stack)
+			Pop(&stack)
 		}
 	}
 	backtrack(0, 0)
 	return res
-}
-
-func pop(stack *[]string) {
-	length := len(*stack)
-	*stack = (*stack)[:length-1]
 }

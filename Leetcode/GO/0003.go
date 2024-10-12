@@ -21,17 +21,10 @@ func lengthOfLongestSubstring(s string) int {
 			deleted = s[l]
 			l++
 		}
-		fmt.Println("\n")
+		fmt.Println("")
 		charSet[s[r]] = true
 		res = max(res, r-l+1)
 		fmt.Printf("%v[%v]%v = %v[%v]Deleted = [%v]True = %v = %v\n", r, s[r], exist, l-1, deleted, s[r], s, charSet)
 	}
 	return res
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }
